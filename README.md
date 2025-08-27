@@ -1,6 +1,6 @@
 # SBOMCtl
 
-SBOMCtl is a research project led by Purdue University. The goal is to develop
+SBOMCtl is a research project. The goal is to develop
 components for trustworthy software supply chain infrastructure.
 
 ## Contents
