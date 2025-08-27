@@ -1,9 +1,6 @@
 [project]
 name = "petra"
 version = "0.0.1"
-authors = [
-  { name="Eman Abu Ishgair", email="eabuishg@purdue.edu" },
-]
 description = "Package to redact SBOM"
 readme = "README.md"
 requires-python = ">=3.9"
