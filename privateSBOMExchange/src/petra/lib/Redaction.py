@@ -125,7 +125,7 @@ def GenerateKeyCPABE(cpabe, attributes , identity):
 def main():
     
     print("Representing SBOM as a Sparse Merkle Tree")
-    tree=SBOMAsTree("/Users/emanabuishgair/research/Redactable SBOMs/test/data/SPDX/chronicle-sbom.spdx.json")
+    tree=SBOMAsTree("chronicle-sbom.spdx.json")
     SBOMField=tree.get(b"spdxVersion")
     print("Testing CP-ABE setup")
     cpabe=SetupCPABE()
